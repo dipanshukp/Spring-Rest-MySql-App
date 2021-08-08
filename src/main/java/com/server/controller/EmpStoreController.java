@@ -31,7 +31,7 @@ public class EmpStoreController {
 	@GetMapping(value={"/","/home"})
 	@ResponseBody
 	public String getHome() {
-		return "<h2><center>Welcome to the Hhomepage..</center></h2>";
+		return "<h2><center>Weelcome to the Hhomepage..</center></h2>";
 	}
 	
 	@RequestMapping(value="/save",method=RequestMethod.POST,consumes="application/json",
